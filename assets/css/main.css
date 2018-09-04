@@ -1,0 +1,38 @@
+.flex-container{
+	display: flex;
+}
+#head{
+	margin-right: auto;
+}
+.openModal{
+	max-height: 10vh;
+	max-width: 15vw;
+	margin-right: auto;
+}
+.foot{
+	text-align: right;
+	padding-bottom: 20px;
+	margin-right: auto;
+} 
+@media screen and (max-width: 750px) {
+
+	.openModal{
+		max-height: 10vh;
+		max-width: 25vw;
+	}	
+	#head{
+		font-size: 4vw;
+	}
+}
+@media screen and (max-width: 450px) {
+
+	.openModal{
+		max-height: 7vh;
+		max-width: 70vw;
+		margin-right: auto;
+	}	
+	#head{
+		font-size: 3vw;
+		margin-right: auto;
+	}
+}

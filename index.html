@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+		<title>Modal component</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<body>
+		<div class="flex-container">
+			<h2 id="head">Click on the button to launch Modal</h2>
+			<button class="w3-button w3-black w3-round-large openModal">Open Modal</button>
+		</div>
+
+
+		<div id="modalId" class="w3-modal flex-container">
+			<div class="w3-modal-content w3-animate-top">
+		      <header class="w3-container"> 
+		        <span class="w3-button w3-display-topright" id="close">&times;</span>
+		        <h2>Modal using HTML5,CSS3</h2>
+		      </header>
+		      <div class="w3-container">
+		        <p>Click on the X to close the modal box.</p>
+		        <p>Click on save changes button to save the changes.</p>
+		      </div>
+		      <footer class="w3-container foot" >
+		      	<button class="w3-button w3-black w3-round-large close">close</button>
+		         <button class="w3-button w3-blue w3-round-large">Save changes</button>
+		      </footer>
+    		</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous">
+		</script>
+		<script type="text/javascript" src="assets/js/index.js"></script>
+	</body>
+</html>
